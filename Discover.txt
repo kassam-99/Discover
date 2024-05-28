@@ -203,9 +203,3 @@ if __name__ == "__main__":
    - Calls the appropriate function based on the user's choice.
    - Includes error handling for each function call to catch unexpected exceptions and display appropriate error messages.
 
-### Specific Fixes
-
-1. **Error Handling**: Added try-except blocks around the input retrieval and function calls to ensure any unexpected errors are caught and handled gracefully.
-2. **Input Validation**: Ensured that invalid input does not break the loop, but instead prompts the user to try again.
-
-This should resolve the `NoneType` error by ensuring that all function calls and inputs are handled correctly.
